@@ -1,0 +1,67 @@
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+    border: none;
+    outline: none;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    font-family: "Poooins", sans-serif;
+}
+.aviso{
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100vh;
+    background-image: url('../img/5CF664F2-C884-43C4-888D-EC020437EDD0.jpeg');
+    background-size: cover;
+    color: #fff;
+
+}
+.contenido {
+    position: relative;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    color: #fff;
+    background-color: rgba(0, 22, 40, .80);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.carta {
+    
+    width: 350px;
+    min-height: 400px;
+    background: #f2f2f2;
+    border-radius: 15px;
+    display: grid;
+    align-items: center;
+    justify-content: center;
+}
+.carta div {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+.carta h1 {
+    color: #343D5B;
+    font-weight: 600;
+    margin: 1rem;
+}
+.carta p {
+    color: #343D5B;
+    margin: 0 2rem;
+    font-size: 17px;
+    font-weight: 500;
+}
+.carta .correo {
+    margin-top: 1rem;
+    color: green;
+    font-weight: 600;
+}
